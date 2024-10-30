@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina 3</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .div-general {
+            margin: auto;
+            width: 1200px;
+            height: 1100px;
+            display: flex; 
+            flex-direction: column;
+            background-color: #e0e0e0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #f0f0f0;
+            padding: 15px;
+            text-align: right;
+        }
+        
+        .navbar a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #000;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .section {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #e0e0e0;
+            text-align: center;
+        }
+
+        .first-section {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            text-align: left;
+        }
+
+        .first-section .image-box {
+            width: 40%;
+            height: 200px;
+            background-color: #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .first-section .image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .first-section p {
+            width: 40%;
+        }
+
+        .highlight {
+            background-color: #FFA500;
+            padding: 20px;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .explore {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+        .explore .box {
+            width: 32%;
+            background-color: #d0d0d0;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .explore .box .image-box {
+            height: 150px;
+            overflow: hidden;
+        }
+
+        .explore .box .image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .footer {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .texto-izquierda {
+            align-items: center;
+            margin-right: 170px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div-general">
+        <div class="navbar">
+            <a href="#">Inicio</a>
+            <a href="#">Noticias</a>
+            <a href="#">Galerías</a>
+            <a href="#">Liderazgo</a>
+        </div>
+
+        <div class="container">
+            <div class="section first-section">
+                <div class="image-box"><img src="https://i.pinimg.com/564x/23/b7/bf/23b7bf89972c3611f3318aef98d1fefc.jpg" alt=""></div>
+                <p class="texto-izquierda"> de lo que seaaaa </p>
+                <p>texto de descripcion de la primera</p>
+            </div>
+
+            <div class="section">
+                <h2>Journalists on the Ground</h2>
+                <div class="image-box"><img src="https://i.pinimg.com/564x/45/0f/a7/450fa79e1424adec393414677b80d613.jpg" alt=""></div>
+                <p>descripcion de la imagen</p>
+            </div>
+
+            <div class="highlight">
+                <p>otro tema</p>
+            </div>
+
+            <div class="explore">
+                <div class="box">
+                    <div class="image-box"><img src="https://i.pinimg.com/564x/83/49/6c/83496c25ee9055e2ea49117ea717cc32.jpg" alt=""></div>
+                    <p>descripcion</p>
+                </div>
+                <div class="box">
+                    <div class="image-box">History</div>
+                    <p>descripcion</p>
+                </div>
+                <div class="box">
+                    <div class="image-box">Company</div>
+                    <p>descripcion</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>MY COMPANY © 2024</p>
+            <p>Links de contacto | Social Media | Términos y Condiciones</p>
+        </div>
+    </div>
+</body>
+</html>
